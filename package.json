@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "Protractor Typescript automation framework",
   "main": "protractor.conf.js",
-  "dependencies": {
-    "@types/node": "^7.0.5",
-    "protractor": "^5.0.0"
-  },
   "devDependencies": {
-    "@types/node": "^7.0.5",
-    "protractor-element-extend": "^1.0.0"
+    "@types/jasmine": "^2.5.38",
+    "@types/node": "^7.0.0",
+    "protractor": "^5.1.1",
+    "jasmine-protractor-matchers": "1.0.1",
+    "typescript": "^2.1.4",
+    "ts-node": "^1.6.0",
+    "systemjs": "0.19.39",
+    "protractor-element-extend": "1.0.0"
   },
+
   "scripts": {
     "pretest": "npm run tsc",
     "test": "protractor ConvertedJSFiles/protractor.conf.js",

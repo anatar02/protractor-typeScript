@@ -11,6 +11,10 @@ sudo npm install -g typescript
 #Run the below commands to install ‘@types/jasmine’ and ‘@types/node’.
 npm install @types/jasmine
 npm install @types/node
+npm install jasmine-protractor-matchers
+npm install typescript
+npm install ts-node
+npm install systemjs
 
 #Protractor Fragments
 npm install protractor-element-extend --save-dev

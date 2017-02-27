@@ -24,8 +24,8 @@ class LoginFormFragment extends BaseFragment {
     }
 
     login(username, password) {
-        this.loginField.type(username);
-        this.passwordField.type(password);
+        this.loginField.sendKeys(username);
+        this.passwordField.sendKeys(password);
         this.$('.btn.btn-primary.btn-block').click();
     }
 }
