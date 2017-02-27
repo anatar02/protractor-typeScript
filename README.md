@@ -12,6 +12,9 @@ sudo npm install -g typescript
 npm install @types/jasmine
 npm install @types/node
 
+#Protractor Fragments
+npm install protractor-element-extend --save-dev
+
 #How to Run?
 #Run the below command to run selenium server.
 webdriver-manager start

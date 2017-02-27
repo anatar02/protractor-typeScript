@@ -19,7 +19,7 @@ export let config: Config = {
     },
 
     framework: 'jasmine',
-    specs: ['./specs/LoginSpec.js'],
+    specs: ['./specs/*.js'],
     jasmineNodeOpts: {
         defaultTimeoutInterval: 30000
     },
