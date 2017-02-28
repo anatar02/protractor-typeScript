@@ -18,11 +18,5 @@
     "pretest": "npm run tsc",
     "test": "protractor ConvertedJSFiles/protractor.conf.js",
     "tsc": "tsc"
-  },
-  "keywords": [
-    "Protractor",
-    "Typescript"
-  ],
-  "author": "Vijay Daram",
-  "license": "ISC"
+  }
 }
