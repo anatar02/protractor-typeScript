@@ -1,4 +1,4 @@
-import {LoginForm} from '../pageObjects/fragment/LoginForm';
+import {LoginForm} from "../../pageFragments/HomePage";
 
 describe('Login', function() {
 

@@ -1,4 +1,4 @@
-import {LoginPage} from '../pageObjects/LoginPage';
+import {LoginPage} from "../../pageObjects/LoginPage";
 
 describe('Login', function() {
  

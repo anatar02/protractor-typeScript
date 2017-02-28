@@ -1,15 +1,7 @@
 import {$, browser} from "protractor";
 import {BaseFragment} from "protractor-element-extend";
 
-export class LoginForm {
-    loginForm:LoginFormFragment;
-
-    constructor() {
-        this.loginForm = new LoginFormFragment()
-    }
-}
-
-class LoginFormFragment extends BaseFragment {
+export class LoginFormFragment extends BaseFragment {
     loginField;
     passwordField;
 
